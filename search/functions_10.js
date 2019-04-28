@@ -2,6 +2,7 @@ var searchData=
 [
   ['range',['Range',['../class_c_l_i_1_1_range.html#acdc2184cbc527fed68c9500c6aae15be',1,'CLI::Range::Range(T min, T max)'],['../class_c_l_i_1_1_range.html#a83d910e7a9faf8e73af6f8a8fd70bf69',1,'CLI::Range::Range(T max)']]],
   ['remaining',['remaining',['../class_c_l_i_1_1_app.html#a0474d71afa5672f645d2b645723c9818',1,'CLI::App']]],
+  ['remaining_5ffor_5fpassthrough',['remaining_for_passthrough',['../class_c_l_i_1_1_app.html#ab3b93e0ab2e848b5160e932bd62de8eb',1,'CLI::App']]],
   ['remaining_5fsize',['remaining_size',['../class_c_l_i_1_1_app.html#a32adb7bd2643ff7e293802210516ca95',1,'CLI::App']]],
   ['remove_5fexcludes',['remove_excludes',['../class_c_l_i_1_1_app.html#a9ea4153f3081d8424e772254135237fd',1,'CLI::App::remove_excludes(Option *opt)'],['../class_c_l_i_1_1_app.html#a1c0670f27afe97a4e7ba12fcfb65a81c',1,'CLI::App::remove_excludes(App *app)'],['../class_c_l_i_1_1_option.html#a414e6a8f76443036a9fb096f49165660',1,'CLI::Option::remove_excludes()']]],
   ['remove_5fneeds',['remove_needs',['../class_c_l_i_1_1_option.html#aab72f7fef9aca5eefb25b09c1abffb3c',1,'CLI::Option']]],
