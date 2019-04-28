@@ -9,6 +9,7 @@ var searchData=
   ['is_5fshared_5fptr',['is_shared_ptr',['../struct_c_l_i_1_1is__shared__ptr.html',1,'CLI']]],
   ['is_5fshared_5fptr_3c_20const_20std_3a_3ashared_5fptr_3c_20t_20_3e_20_3e',['is_shared_ptr&lt; const std::shared_ptr&lt; T &gt; &gt;',['../struct_c_l_i_1_1is__shared__ptr_3_01const_01std_1_1shared__ptr_3_01_t_01_4_01_4.html',1,'CLI']]],
   ['is_5fshared_5fptr_3c_20std_3a_3ashared_5fptr_3c_20t_20_3e_20_3e',['is_shared_ptr&lt; std::shared_ptr&lt; T &gt; &gt;',['../struct_c_l_i_1_1is__shared__ptr_3_01std_1_1shared__ptr_3_01_t_01_4_01_4.html',1,'CLI']]],
+  ['is_5fstreamable',['is_streamable',['../class_c_l_i_1_1detail_1_1is__streamable.html',1,'CLI::detail']]],
   ['is_5fvector',['is_vector',['../struct_c_l_i_1_1is__vector.html',1,'CLI']]],
   ['is_5fvector_3c_20std_3a_3avector_3c_20t_2c_20a_20_3e_20_3e',['is_vector&lt; std::vector&lt; T, A &gt; &gt;',['../struct_c_l_i_1_1is__vector_3_01std_1_1vector_3_01_t_00_01_a_01_4_01_4.html',1,'CLI']]],
   ['ismember',['IsMember',['../class_c_l_i_1_1_is_member.html',1,'CLI']]],

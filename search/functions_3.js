@@ -1,6 +1,7 @@
 var searchData=
 [
   ['callback',['callback',['../class_c_l_i_1_1_app.html#ab77e4c2f88388a9cc715c3e9d8ad37bc',1,'CLI::App']]],
+  ['capture_5fdefault_5fstr',['capture_default_str',['../class_c_l_i_1_1_option.html#a978a9cc185b82fd45228c2c512ebf188',1,'CLI::Option']]],
   ['check',['check',['../class_c_l_i_1_1_option.html#ae82016963911635b9388fcd3b780de83',1,'CLI::Option::check(Validator validator, std::string validator_name=&quot;&quot;)'],['../class_c_l_i_1_1_option.html#aff30c3ded42197dcfe15d68e84074f0f',1,'CLI::Option::check(std::function&lt; std::string(const std::string &amp;)&gt; validator, std::string validator_description=&quot;&quot;, std::string validator_name=&quot;&quot;)']]],
   ['check_5ffname',['check_fname',['../class_c_l_i_1_1_option.html#a4d2329268bae134aa58e704fa61f4b57',1,'CLI::Option']]],
   ['check_5flname',['check_lname',['../class_c_l_i_1_1_option.html#a481001137137be0d6a4e5998866d604a',1,'CLI::Option']]],

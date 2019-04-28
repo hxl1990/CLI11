@@ -204,8 +204,12 @@ std::set&lt; <a class="el" href="class_c_l_i_1_1_option.html">Option</a> * &gt;&
 <tr class="separator:aef5d368ea4ff9b5c3058ee316da00bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdc83d34e33159c47533168dfb51d9f2"><td class="memItemLeft" align="right" valign="top"><a id="acdc83d34e33159c47533168dfb51d9f2"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#acdc83d34e33159c47533168dfb51d9f2">get_defaultval</a> () const</td></tr>
-<tr class="memdesc:acdc83d34e33159c47533168dfb51d9f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default value (for help printing) <br /></td></tr>
+<tr class="memdesc:acdc83d34e33159c47533168dfb51d9f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default value (for help printing) DEPRECATED Use <a class="el" href="class_c_l_i_1_1_option.html#a3b8410c5366dbbb6781b37d963677101" title="The default value (for help printing)">get_default_str()</a> instead. <br /></td></tr>
 <tr class="separator:acdc83d34e33159c47533168dfb51d9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b8410c5366dbbb6781b37d963677101"><td class="memItemLeft" align="right" valign="top"><a id="a3b8410c5366dbbb6781b37d963677101"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a3b8410c5366dbbb6781b37d963677101">get_default_str</a> () const</td></tr>
+<tr class="memdesc:a3b8410c5366dbbb6781b37d963677101"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default value (for help printing) <br /></td></tr>
+<tr class="separator:a3b8410c5366dbbb6781b37d963677101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ab1e8c10d6d6c3b49b71cb0d8e5d3fb"><td class="memItemLeft" align="right" valign="top"><a id="a8ab1e8c10d6d6c3b49b71cb0d8e5d3fb"></a>
 callback_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a8ab1e8c10d6d6c3b49b71cb0d8e5d3fb">get_callback</a> () const</td></tr>
 <tr class="memdesc:a8ab1e8c10d6d6c3b49b71cb0d8e5d3fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the callback function. <br /></td></tr>
@@ -229,10 +233,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:afe31a608506cbe75d40d6cced342be11"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#afe31a608506cbe75d40d6cced342be11">get_items_expected</a> () const</td></tr>
 <tr class="memdesc:afe31a608506cbe75d40d6cced342be11"><td class="mdescLeft">&#160;</td><td class="mdescRight">The total number of expected values (including the type) This is positive if exactly this number is expected, and negative for at least N values.  <a href="#afe31a608506cbe75d40d6cced342be11">More...</a><br /></td></tr>
 <tr class="separator:afe31a608506cbe75d40d6cced342be11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26527442a386c8ccc369069c00062398"><td class="memItemLeft" align="right" valign="top"><a id="a26527442a386c8ccc369069c00062398"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a26527442a386c8ccc369069c00062398">get_default</a> () const</td></tr>
-<tr class="memdesc:a26527442a386c8ccc369069c00062398"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this has a default value. <br /></td></tr>
-<tr class="separator:a26527442a386c8ccc369069c00062398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acab7033604b49e314d290b01adea690d"><td class="memItemLeft" align="right" valign="top"><a id="acab7033604b49e314d290b01adea690d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#acab7033604b49e314d290b01adea690d">get_positional</a> () const</td></tr>
 <tr class="memdesc:acab7033604b49e314d290b01adea690d"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the argument can be given directly. <br /></td></tr>
@@ -333,6 +333,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a81e5fe4b564f2e576ee9e4966194a682">mandatory</a> (bool value=true)</td></tr>
 <tr class="memdesc:a81e5fe4b564f2e576ee9e4966194a682 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Support Plumbum term. <br /></td></tr>
 <tr class="separator:a81e5fe4b564f2e576ee9e4966194a682 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1499da5244ca58938feda5cda9d166 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a3c1499da5244ca58938feda5cda9d166"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>always_capture_default</b> (bool value=true)</td></tr>
+<tr class="separator:a3c1499da5244ca58938feda5cda9d166 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a341e7df4c2693312609186f036dd923c inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a341e7df4c2693312609186f036dd923c"></a>
 const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a341e7df4c2693312609186f036dd923c">get_group</a> () const</td></tr>
 <tr class="memdesc:a341e7df4c2693312609186f036dd923c inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the group of this option. <br /></td></tr>
@@ -358,8 +361,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a07c4e6b7c4a7c3af4e147613d5e39aa0 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The status of configurable. <br /></td></tr>
 <tr class="separator:a07c4e6b7c4a7c3af4e147613d5e39aa0 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3057f1f7bdd0473d86aad54a0e36064 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="ad3057f1f7bdd0473d86aad54a0e36064"></a>
-char&#160;</td><td class="memItemRight" valign="bottom"><b>get_delimiter</b> () const</td></tr>
+char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#ad3057f1f7bdd0473d86aad54a0e36064">get_delimiter</a> () const</td></tr>
+<tr class="memdesc:ad3057f1f7bdd0473d86aad54a0e36064 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current delimeter char. <br /></td></tr>
 <tr class="separator:ad3057f1f7bdd0473d86aad54a0e36064 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf913635549804e222cd309294cdba7a inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="acf913635549804e222cd309294cdba7a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#acf913635549804e222cd309294cdba7a">get_always_capture_default</a> () const</td></tr>
+<tr class="memdesc:acf913635549804e222cd309294cdba7a inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if this will automatically capture the default value for help printing. <br /></td></tr>
+<tr class="separator:acf913635549804e222cd309294cdba7a inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67ade2fd6f98b5a77c45b18c3d8ae639 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a67ade2fd6f98b5a77c45b18c3d8ae639"></a>
 MultiOptionPolicy&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a67ade2fd6f98b5a77c45b18c3d8ae639">get_multi_option_policy</a> () const</td></tr>
 <tr class="memdesc:a67ade2fd6f98b5a77c45b18c3d8ae639 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The status of the multi option policy. <br /></td></tr>
@@ -387,10 +395,10 @@ MultiOptionPolicy&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aaef84f95d7d92b87be203fe9bc76d57f"><td class="memItemLeft" align="right" valign="top"><a id="aaef84f95d7d92b87be203fe9bc76d57f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aaef84f95d7d92b87be203fe9bc76d57f">Option</a> (std::string option_name, std::string option_description, std::function&lt; bool(results_t)&gt; callback, bool defaulted, <a class="el" href="class_c_l_i_1_1_app.html">App</a> *parent)</td></tr>
-<tr class="memdesc:aaef84f95d7d92b87be203fe9bc76d57f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Making an option by hand is not defined, it must be made by the <a class="el" href="class_c_l_i_1_1_app.html" title="Creates a command line program, with very few defaults.">App</a> class. <br /></td></tr>
-<tr class="separator:aaef84f95d7d92b87be203fe9bc76d57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b62c5955cd587fd50deba71d412743"><td class="memItemLeft" align="right" valign="top"><a id="a66b62c5955cd587fd50deba71d412743"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a66b62c5955cd587fd50deba71d412743">Option</a> (std::string option_name, std::string option_description, std::function&lt; bool(results_t)&gt; callback, <a class="el" href="class_c_l_i_1_1_app.html">App</a> *parent)</td></tr>
+<tr class="memdesc:a66b62c5955cd587fd50deba71d412743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Making an option by hand is not defined, it must be made by the <a class="el" href="class_c_l_i_1_1_app.html" title="Creates a command line program, with very few defaults.">App</a> class. <br /></td></tr>
+<tr class="separator:a66b62c5955cd587fd50deba71d412743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_c_l_i_1_1_option_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_c_l_i_1_1_option_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_c_l_i_1_1_option_base.html">CLI::OptionBase&lt; Option &gt;</a></td></tr>
 <tr class="memitem:aeccfd835475420d963f2fff446c32003 inherit pro_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="aeccfd835475420d963f2fff446c32003"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#aeccfd835475420d963f2fff446c32003">copy_to</a> (T *other) const</td></tr>
@@ -427,16 +435,16 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aa6427b2f3303cc4469cacdc098b9d4bf">description_</a></td></tr>
 <tr class="memdesc:aa6427b2f3303cc4469cacdc098b9d4bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The description for help strings. <br /></td></tr>
 <tr class="separator:aa6427b2f3303cc4469cacdc098b9d4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5801b4cec3c87ce84a2cfd9decdb1fd"><td class="memItemLeft" align="right" valign="top"><a id="af5801b4cec3c87ce84a2cfd9decdb1fd"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#af5801b4cec3c87ce84a2cfd9decdb1fd">defaultval_</a></td></tr>
-<tr class="memdesc:af5801b4cec3c87ce84a2cfd9decdb1fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">A human readable default value, usually only set if default is true in creation. <br /></td></tr>
-<tr class="separator:af5801b4cec3c87ce84a2cfd9decdb1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169893983f2dd0dc840ebca98bb76698"><td class="memItemLeft" align="right" valign="top"><a id="a169893983f2dd0dc840ebca98bb76698"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a169893983f2dd0dc840ebca98bb76698">default_str_</a></td></tr>
+<tr class="memdesc:a169893983f2dd0dc840ebca98bb76698"><td class="mdescLeft">&#160;</td><td class="mdescRight">A human readable default value, either manually set, captured, or captured by default. <br /></td></tr>
+<tr class="separator:a169893983f2dd0dc840ebca98bb76698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2080c70a11f8935118dffc924824aa87"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::string()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a2080c70a11f8935118dffc924824aa87">type_name_</a> {[]() { return std::string(); }}</td></tr>
 <tr class="separator:a2080c70a11f8935118dffc924824aa87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19eea42937479f91fceae827c8e28adf"><td class="memItemLeft" align="right" valign="top"><a id="a19eea42937479f91fceae827c8e28adf"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a19eea42937479f91fceae827c8e28adf">default_</a> {false}</td></tr>
-<tr class="memdesc:a19eea42937479f91fceae827c8e28adf"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this option has a default. <br /></td></tr>
-<tr class="separator:a19eea42937479f91fceae827c8e28adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc7769c9cd48d7c7302dd51aa8fd3bd2"><td class="memItemLeft" align="right" valign="top"><a id="acc7769c9cd48d7c7302dd51aa8fd3bd2"></a>
+std::function&lt; std::string()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#acc7769c9cd48d7c7302dd51aa8fd3bd2">default_function_</a></td></tr>
+<tr class="memdesc:acc7769c9cd48d7c7302dd51aa8fd3bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run this function to capture a default (ignore if empty) <br /></td></tr>
+<tr class="separator:acc7769c9cd48d7c7302dd51aa8fd3bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Configuration</div></td></tr>
 <tr class="memitem:af44dc98f95faf60a04ce44f286b07810"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#af44dc98f95faf60a04ce44f286b07810">type_size_</a> {1}</td></tr>
 <tr class="separator:af44dc98f95faf60a04ce44f286b07810"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -503,6 +511,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#ac4164d93e2b8e59b2de24dad04a9f34b">delimiter_</a></td></tr>
 <tr class="memdesc:ac4164d93e2b8e59b2de24dad04a9f34b inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify a delimiter character for vector arguments. <br /></td></tr>
 <tr class="separator:ac4164d93e2b8e59b2de24dad04a9f34b inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23aca05ffa9c2d3fbba10b5434cdba64 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a23aca05ffa9c2d3fbba10b5434cdba64"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a23aca05ffa9c2d3fbba10b5434cdba64">always_capture_default_</a></td></tr>
+<tr class="memdesc:a23aca05ffa9c2d3fbba10b5434cdba64 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically capture default value. <br /></td></tr>
+<tr class="separator:a23aca05ffa9c2d3fbba10b5434cdba64 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c5483d3c992baad97beed3de2b82b05 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a2c5483d3c992baad97beed3de2b82b05"></a>
 MultiOptionPolicy&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a2c5483d3c992baad97beed3de2b82b05">multi_option_policy_</a></td></tr>
 <tr class="memdesc:a2c5483d3c992baad97beed3de2b82b05 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Policy for multiple arguments when <code>expected_ == 1</code> (can be set on bool flags, too) <br /></td></tr>
@@ -522,13 +534,21 @@ Custom options</h2></td></tr>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a490eba9b24865845a0715e4566dcb6cc">type_size</a> (int option_type_size)</td></tr>
 <tr class="memdesc:a490eba9b24865845a0715e4566dcb6cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a custom option size. <br /></td></tr>
 <tr class="separator:a490eba9b24865845a0715e4566dcb6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3693531e3da3574fc03185f759f13a83"><td class="memItemLeft" align="right" valign="top"><a id="a3693531e3da3574fc03185f759f13a83"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a3693531e3da3574fc03185f759f13a83">default_function</a> (const std::function&lt; std::string()&gt; &amp;func)</td></tr>
+<tr class="memdesc:a3693531e3da3574fc03185f759f13a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a capture function for the default. Mostly used by <a class="el" href="class_c_l_i_1_1_app.html" title="Creates a command line program, with very few defaults.">App</a>. <br /></td></tr>
+<tr class="separator:a3693531e3da3574fc03185f759f13a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978a9cc185b82fd45228c2c512ebf188"><td class="memItemLeft" align="right" valign="top"><a id="a978a9cc185b82fd45228c2c512ebf188"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a978a9cc185b82fd45228c2c512ebf188">capture_default_str</a> ()</td></tr>
+<tr class="memdesc:a978a9cc185b82fd45228c2c512ebf188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Capture the default value from the original value (if it can be captured) <br /></td></tr>
+<tr class="separator:a978a9cc185b82fd45228c2c512ebf188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a446f47a5d6ddf6831defd707394d7c07"><td class="memItemLeft" align="right" valign="top"><a id="a446f47a5d6ddf6831defd707394d7c07"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a446f47a5d6ddf6831defd707394d7c07">default_str</a> (std::string val)</td></tr>
-<tr class="memdesc:a446f47a5d6ddf6831defd707394d7c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default value string representation. <br /></td></tr>
+<tr class="memdesc:a446f47a5d6ddf6831defd707394d7c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default value string representation (does not change the contained value) <br /></td></tr>
 <tr class="separator:a446f47a5d6ddf6831defd707394d7c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f91bad482e7f60a70f465722c203c6"><td class="memItemLeft" align="right" valign="top"><a id="a30f91bad482e7f60a70f465722c203c6"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a30f91bad482e7f60a70f465722c203c6">default_val</a> (std::string val)</td></tr>
-<tr class="memdesc:a30f91bad482e7f60a70f465722c203c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default value string representation and evaluate. <br /></td></tr>
+<tr class="memdesc:a30f91bad482e7f60a70f465722c203c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default value string representation and evaluate into the bound value. <br /></td></tr>
 <tr class="separator:a30f91bad482e7f60a70f465722c203c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b8425827ceb852c3cc3f44b9b1c26a4"><td class="memItemLeft" align="right" valign="top"><a id="a8b8425827ceb852c3cc3f44b9b1c26a4"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a8b8425827ceb852c3cc3f44b9b1c26a4">get_type_name</a> () const</td></tr>
