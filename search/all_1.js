@@ -25,5 +25,7 @@ var searchData=
   ['appfriend',['AppFriend',['../struct_c_l_i_1_1detail_1_1_app_friend.html',1,'CLI::detail']]],
   ['argumentmismatch',['ArgumentMismatch',['../class_c_l_i_1_1_argument_mismatch.html',1,'CLI']]],
   ['as',['as',['../class_c_l_i_1_1_option.html#aaf823105782108a6c777b7e0925d2430',1,'CLI::Option']]],
+  ['asnumberwithunit',['AsNumberWithUnit',['../class_c_l_i_1_1_as_number_with_unit.html',1,'CLI']]],
+  ['assizevalue',['AsSizeValue',['../class_c_l_i_1_1_as_size_value.html',1,'CLI::AsSizeValue'],['../class_c_l_i_1_1_as_size_value.html#a2b4907603d2a0539df639bbc468e0ec0',1,'CLI::AsSizeValue::AsSizeValue()']]],
   ['autotimer',['AutoTimer',['../class_c_l_i_1_1_auto_timer.html',1,'CLI::AutoTimer'],['../class_c_l_i_1_1_auto_timer.html#a0ebfc16241474929ea99e201df9855f7',1,'CLI::AutoTimer::AutoTimer()']]]
 ];

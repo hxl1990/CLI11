@@ -21,5 +21,6 @@ var searchData=
   ['optionbase_3c_20optiondefaults_20_3e',['OptionBase&lt; OptionDefaults &gt;',['../class_c_l_i_1_1_option_base.html',1,'CLI']]],
   ['optiondefaults',['OptionDefaults',['../class_c_l_i_1_1_option_defaults.html',1,'CLI']]],
   ['optionnotfound',['OptionNotFound',['../class_c_l_i_1_1_option_not_found.html',1,'CLI']]],
+  ['options',['Options',['../class_c_l_i_1_1_as_number_with_unit.html#a4f1b96d1a43a6acb3f85b68dd6f5a321',1,'CLI::AsNumberWithUnit']]],
   ['options_5f',['options_',['../class_c_l_i_1_1_app.html#a862e55a8c1fe3676452aadc6a222f865',1,'CLI::App']]]
 ];

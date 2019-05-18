@@ -18,5 +18,6 @@ var searchData=
   ['allow_5fwindows_5fstyle_5foptions',['allow_windows_style_options',['../class_c_l_i_1_1_app.html#a7d8c3ab60b46e4ac79fbdba0d473e97b',1,'CLI::App']]],
   ['app',['App',['../class_c_l_i_1_1_app.html#aaa53fda3b6aa477158ea8b1768342cc0',1,'CLI::App::App(std::string app_description, std::string app_name, App *parent)'],['../class_c_l_i_1_1_app.html#a61fe9472ef81b1503159511bb8e76430',1,'CLI::App::App(std::string app_description=&quot;&quot;, std::string app_name=&quot;&quot;)']]],
   ['as',['as',['../class_c_l_i_1_1_option.html#aaf823105782108a6c777b7e0925d2430',1,'CLI::Option']]],
+  ['assizevalue',['AsSizeValue',['../class_c_l_i_1_1_as_size_value.html#a2b4907603d2a0539df639bbc468e0ec0',1,'CLI::AsSizeValue']]],
   ['autotimer',['AutoTimer',['../class_c_l_i_1_1_auto_timer.html#a0ebfc16241474929ea99e201df9855f7',1,'CLI::AutoTimer']]]
 ];
